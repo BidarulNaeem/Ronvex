@@ -1,0 +1,500 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "AeroFlow Pro ANC Wireless Headphones",
+      "slug": "aeroflow-pro-anc-headphones",
+      "description": "Studio-grade hybrid active noise cancelling headphones with custom 40mm beryllium drivers, 55-hour battery life, and ultra-plush memory foam earcups.",
+      "images": [
+        "/src/assets/images/ronvex_headphones_1792559433004.jpg"
+      ],
+      "category": "Audio & Sound",
+      "sku": "RNV-AUD-001",
+      "stock": 44,
+      "basePrice": 4200,
+      "minPrice": 4200,
+      "maxPrice": 5800,
+      "originalPrice": 6200,
+      "status": "active",
+      "featured": true,
+      "affiliateAvailable": true,
+      "createdAt": "2026-03-01T10:00:00.000Z",
+      "updatedAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "prod-002",
+      "name": "ChronoPro Titanium Smartwatch",
+      "slug": "chronopro-titanium-smartwatch",
+      "description": "Aerospace-grade titanium chassis with vivid 1.43-inch AMOLED display, dual-frequency GPS, health sensor suite, and 14-day endurance battery.",
+      "images": [
+        "/src/assets/images/ronvex_smartwatch_1792559446981.jpg"
+      ],
+      "category": "Smart Wearables",
+      "sku": "RNV-WCH-002",
+      "stock": 32,
+      "basePrice": 5500,
+      "minPrice": 5500,
+      "maxPrice": 7500,
+      "originalPrice": 7990,
+      "status": "active",
+      "featured": true,
+      "affiliateAvailable": true,
+      "createdAt": "2026-03-02T10:00:00.000Z",
+      "updatedAt": "2026-03-02T10:00:00.000Z"
+    },
+    {
+      "id": "prod-003",
+      "name": "StealthGlide Wireless Mechanical Keyboard",
+      "slug": "stealthglide-wireless-mechanical-keyboard",
+      "description": "Ultra-low-profile CNC aluminum frame, hot-swappable linear switches, per-key electric blue illumination, and multi-device Bluetooth 5.3 connection.",
+      "images": [
+        "/src/assets/images/ronvex_keyboard_1792559458949.jpg"
+      ],
+      "category": "Computer Accessories",
+      "sku": "RNV-KBD-003",
+      "stock": 28,
+      "basePrice": 3800,
+      "minPrice": 3800,
+      "maxPrice": 5200,
+      "originalPrice": 5600,
+      "status": "active",
+      "featured": true,
+      "affiliateAvailable": true,
+      "createdAt": "2026-03-03T10:00:00.000Z",
+      "updatedAt": "2026-03-03T10:00:00.000Z"
+    },
+    {
+      "id": "prod-004",
+      "name": "MagVolt Ultra-Slim 10000mAh Magnetic Power Bank",
+      "slug": "magvolt-magnetic-power-bank",
+      "description": "Next-generation high-density 10,000mAh battery in a 12mm sleek anodized shell with 15W Qi2 wireless snap-on charging and 30W USB-C PD output.",
+      "images": [
+        "/src/assets/images/ronvex_powerbank_1792559472764.jpg"
+      ],
+      "category": "Power & Charging",
+      "sku": "RNV-PWR-004",
+      "stock": 60,
+      "basePrice": 1800,
+      "minPrice": 1800,
+      "maxPrice": 2800,
+      "originalPrice": 3100,
+      "status": "active",
+      "featured": true,
+      "affiliateAvailable": true,
+      "createdAt": "2026-03-04T10:00:00.000Z",
+      "updatedAt": "2026-03-04T10:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Audio & Sound",
+      "slug": "audio-sound",
+      "icon": "Headphones"
+    },
+    {
+      "id": "cat-2",
+      "name": "Smart Wearables",
+      "slug": "smart-wearables",
+      "icon": "Watch"
+    },
+    {
+      "id": "cat-3",
+      "name": "Computer Accessories",
+      "slug": "computer-accessories",
+      "icon": "Keyboard"
+    },
+    {
+      "id": "cat-4",
+      "name": "Power & Charging",
+      "slug": "power-charging",
+      "icon": "Zap"
+    },
+    {
+      "id": "cat-5",
+      "name": "Smart Home",
+      "slug": "smart-home",
+      "icon": "Home"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-naeem",
+      "fullName": "Naeem Ahmed",
+      "email": "affiliate@ronvex.com",
+      "mobile": "+8801712345678",
+      "address": "Dhanmondi 27, Dhaka 1209, Bangladesh",
+      "businessDetails": "Tech content creator & gadget reviewer on YouTube (120k subscribers).",
+      "desiredSlug": "naeem",
+      "status": "approved",
+      "appliedAt": "2026-03-01T08:00:00.000Z",
+      "reviewedAt": "2026-03-01T09:00:00.000Z",
+      "reviewedBy": "Admin System"
+    },
+    {
+      "id": "app-tariq",
+      "fullName": "Tariqul Islam",
+      "email": "tariqul@techgadgets.bd",
+      "mobile": "+8801819876543",
+      "address": "Agrabad C/A, Chattogram, Bangladesh",
+      "businessDetails": "Local electronics retail consultant and influencer.",
+      "desiredSlug": "tariq-tech",
+      "status": "pending",
+      "appliedAt": "2026-03-10T14:20:00.000Z"
+    }
+  ],
+  "affiliates": [
+    {
+      "id": "aff-naeem-01",
+      "applicationId": "app-naeem",
+      "fullName": "Naeem Ahmed",
+      "email": "affiliate@ronvex.com",
+      "mobile": "+8801712345678",
+      "slug": "naeem",
+      "storeName": "Naeem's Tech Haven",
+      "bio": "Curated premium audio gear and everyday electronics personally vetted by Naeem.",
+      "status": "active",
+      "createdAt": "2026-03-01T09:00:00.000Z"
+    }
+  ],
+  "storefronts": [
+    {
+      "id": "sf-naeem-01",
+      "affiliateId": "aff-naeem-01",
+      "storeName": "Naeem's Tech Haven",
+      "storeSlug": "naeem",
+      "bio": "Hand-picked high performance gadgets curated for tech enthusiasts and creators.",
+      "tagline": "Precision Crafted Tech for Modern Creators",
+      "themeAccent": "#0066ff",
+      "isPublished": true,
+      "customProducts": [
+        {
+          "productId": "prod-001",
+          "customSellingPrice": 5100,
+          "isFeatured": true
+        },
+        {
+          "productId": "prod-002",
+          "customSellingPrice": 6800,
+          "isFeatured": true
+        },
+        {
+          "productId": "prod-004",
+          "customSellingPrice": 2450,
+          "isFeatured": false
+        }
+      ],
+      "updatedAt": "2026-03-01T10:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-mvhnz9lt-a6gu",
+      "orderNumber": "RNV-2026-43514",
+      "customer": {
+        "fullName": "Rafiqul Islam",
+        "email": "rafiq@gmail.com",
+        "mobile": "01711223344",
+        "address": "Dhanmondi Road 8",
+        "city": "Dhaka"
+      },
+      "items": [
+        {
+          "productId": "prod-001",
+          "productName": "AeroFlow Pro ANC Wireless Headphones",
+          "quantity": 1,
+          "basePriceSnapshot": 4200,
+          "sellingPriceSnapshot": 5100,
+          "affiliateId": "aff-naeem-01",
+          "image": "/src/assets/images/ronvex_headphones_1792559433004.jpg",
+          "subtotal": 5100
+        }
+      ],
+      "totalAmount": 5100,
+      "affiliateId": "aff-naeem-01",
+      "affiliateSlug": "naeem",
+      "paymentMethod": "cod",
+      "paymentStatus": "paid",
+      "deliveryStatus": "delivered",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-10-21T05:21:04.097Z",
+          "actor": "Customer",
+          "note": "Order submitted successfully"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2026-10-21T05:21:17.880Z",
+          "note": "Courier delivered successfully and collected COD",
+          "actor": "RONVEX Super Admin"
+        }
+      ],
+      "createdAt": "2026-10-21T05:21:04.097Z",
+      "updatedAt": "2026-10-21T05:21:17.880Z",
+      "deliveredAt": "2026-10-21T05:21:17.880Z"
+    },
+    {
+      "id": "ord-001",
+      "orderNumber": "RNV-2026-89412",
+      "customer": {
+        "fullName": "Kamal Hossain",
+        "email": "kamal.hossain@gmail.com",
+        "mobile": "+8801912445566",
+        "address": "House 14, Road 5, Sector 4, Uttara",
+        "city": "Dhaka",
+        "note": "Please call before delivery"
+      },
+      "items": [
+        {
+          "productId": "prod-001",
+          "productName": "AeroFlow Pro ANC Wireless Headphones",
+          "quantity": 1,
+          "basePriceSnapshot": 4200,
+          "sellingPriceSnapshot": 5100,
+          "affiliateId": "aff-naeem-01",
+          "image": "/src/assets/images/ronvex_headphones_1792559433004.jpg",
+          "subtotal": 5100
+        }
+      ],
+      "totalAmount": 5100,
+      "affiliateId": "aff-naeem-01",
+      "affiliateSlug": "naeem",
+      "paymentMethod": "cod",
+      "paymentStatus": "paid",
+      "deliveryStatus": "delivered",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-03-05T11:00:00.000Z",
+          "actor": "Customer"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-03-05T12:00:00.000Z",
+          "actor": "Admin"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2026-03-05T14:30:00.000Z",
+          "actor": "Admin"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2026-03-06T09:15:00.000Z",
+          "actor": "Admin"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2026-03-07T16:40:00.000Z",
+          "actor": "Admin"
+        }
+      ],
+      "createdAt": "2026-03-05T11:00:00.000Z",
+      "updatedAt": "2026-03-07T16:40:00.000Z",
+      "deliveredAt": "2026-03-07T16:40:00.000Z"
+    },
+    {
+      "id": "ord-002",
+      "orderNumber": "RNV-2026-90124",
+      "customer": {
+        "fullName": "Sabrina Rahman",
+        "email": "sabrina.r@yahoo.com",
+        "mobile": "+8801733445566",
+        "address": "Flat 4B, Green Road",
+        "city": "Dhaka"
+      },
+      "items": [
+        {
+          "productId": "prod-002",
+          "productName": "ChronoPro Titanium Smartwatch",
+          "quantity": 1,
+          "basePriceSnapshot": 5500,
+          "sellingPriceSnapshot": 6800,
+          "affiliateId": "aff-naeem-01",
+          "image": "/src/assets/images/ronvex_smartwatch_1792559446981.jpg",
+          "subtotal": 6800
+        }
+      ],
+      "totalAmount": 6800,
+      "affiliateId": "aff-naeem-01",
+      "affiliateSlug": "naeem",
+      "paymentMethod": "bkash",
+      "paymentStatus": "paid",
+      "deliveryStatus": "shipped",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-03-12T10:00:00.000Z",
+          "actor": "Customer"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-03-12T11:00:00.000Z",
+          "actor": "Admin"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2026-03-13T10:30:00.000Z",
+          "actor": "Admin"
+        }
+      ],
+      "createdAt": "2026-03-12T10:00:00.000Z",
+      "updatedAt": "2026-03-13T10:30:00.000Z"
+    },
+    {
+      "id": "ord-003",
+      "orderNumber": "RNV-2026-91338",
+      "customer": {
+        "fullName": "Tanvir Mahmud",
+        "email": "tanvir.m@outlook.com",
+        "mobile": "+8801688990011",
+        "address": "House 8, Road 2, Block C, Mirpur 1",
+        "city": "Dhaka"
+      },
+      "items": [
+        {
+          "productId": "prod-003",
+          "productName": "StealthGlide Wireless Mechanical Keyboard",
+          "quantity": 1,
+          "basePriceSnapshot": 3800,
+          "sellingPriceSnapshot": 3800,
+          "affiliateId": null,
+          "image": "/src/assets/images/ronvex_keyboard_1792559458949.jpg",
+          "subtotal": 3800
+        }
+      ],
+      "totalAmount": 3800,
+      "affiliateId": null,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "deliveryStatus": "processing",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-03-14T15:20:00.000Z",
+          "actor": "Customer"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-03-14T16:00:00.000Z",
+          "actor": "Admin"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2026-03-15T09:00:00.000Z",
+          "actor": "Admin"
+        }
+      ],
+      "createdAt": "2026-03-14T15:20:00.000Z",
+      "updatedAt": "2026-03-15T09:00:00.000Z"
+    }
+  ],
+  "earnings": [
+    {
+      "id": "earn-001",
+      "affiliateId": "aff-naeem-01",
+      "orderId": "ord-001",
+      "orderNumber": "RNV-2026-89412",
+      "grossAmount": 900,
+      "status": "confirmed",
+      "createdAt": "2026-03-07T16:40:00.000Z",
+      "confirmedAt": "2026-03-07T16:40:00.000Z"
+    },
+    {
+      "id": "earn-mvhnzk8o-euoc",
+      "affiliateId": "aff-naeem-01",
+      "orderId": "ord-mvhnz9lt-a6gu",
+      "orderNumber": "RNV-2026-43514",
+      "grossAmount": 900,
+      "status": "confirmed",
+      "createdAt": "2026-10-21T05:21:17.880Z",
+      "confirmedAt": "2026-10-21T05:21:17.880Z"
+    }
+  ],
+  "clicks": [
+    {
+      "id": "clk-01",
+      "affiliateId": "aff-naeem-01",
+      "productId": "prod-001",
+      "referrer": "https://youtube.com",
+      "timestamp": "2026-03-05T09:15:00.000Z"
+    },
+    {
+      "id": "clk-02",
+      "affiliateId": "aff-naeem-01",
+      "productId": "prod-002",
+      "referrer": "https://facebook.com",
+      "timestamp": "2026-03-12T08:30:00.000Z"
+    },
+    {
+      "id": "clk-03",
+      "affiliateId": "aff-naeem-01",
+      "referrer": "https://instagram.com",
+      "timestamp": "2026-03-15T12:00:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-001",
+      "actor": "Admin",
+      "action": "APPROVE_AFFILIATE",
+      "target": "aff-naeem-01",
+      "details": {
+        "email": "affiliate@ronvex.com",
+        "slug": "naeem"
+      },
+      "timestamp": "2026-03-01T09:00:00.000Z"
+    },
+    {
+      "id": "log-002",
+      "actor": "Admin",
+      "action": "DELIVERY_STATUS_UPDATE",
+      "target": "ord-001",
+      "details": {
+        "from": "shipped",
+        "to": "delivered",
+        "generatedEarning": 900
+      },
+      "timestamp": "2026-03-07T16:40:00.000Z"
+    },
+    {
+      "id": "log-mvhnz9lt-vln0",
+      "actor": "rafiq@gmail.com",
+      "action": "CREATE_ORDER",
+      "target": "ord-mvhnz9lt-a6gu",
+      "details": {
+        "orderNumber": "RNV-2026-43514",
+        "totalAmount": 5100,
+        "affiliateId": "aff-naeem-01"
+      },
+      "timestamp": "2026-10-21T05:21:04.097Z"
+    },
+    {
+      "id": "log-mvhnzk8o-ry3j",
+      "actor": "RONVEX Super Admin",
+      "action": "UPDATE_DELIVERY_STATUS",
+      "target": "ord-mvhnz9lt-a6gu",
+      "details": {
+        "from": "pending",
+        "to": "delivered",
+        "orderNumber": "RNV-2026-43514"
+      },
+      "timestamp": "2026-10-21T05:21:17.880Z"
+    }
+  ],
+  "adminUsers": [
+    {
+      "id": "usr-admin-01",
+      "email": "admin@ronvex.com",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "name": "RONVEX Super Admin"
+    }
+  ],
+  "affiliateCredentials": [
+    {
+      "affiliateId": "aff-naeem-01",
+      "passwordHash": "f35451d976999cd380cb8c45ee98e8c7ae1c9262b7d0713dcb54f7655bca1ce7"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "RONVEX - E-Commerce & Affiliate Mini-Store Platform",
+  "description": "Production-grade e-commerce platform with Daraz-inspired storefront, affiliate mini-stores, custom pricing within limits, order processing, and delivery status earnings tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
